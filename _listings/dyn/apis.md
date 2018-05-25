@@ -1,23 +1,21 @@
 ---
 name: Dyn
 x-slug: dyn
-description: Dyn helps companies monitor, control, and optimize online infrastructure
-  to improve end-user experience. Their Internet performance product suite includes
-  Dyn Internet Intelligence, IP Transit Intelligence, Traffic Director, and DNS APIs.
-  Dyn provides enterprise level sales and pricing for their DNS, and email services.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+description: Dyn is home to the worlds most trusted DNS product suite and the worlds
+  most reputable Email Deliverability Service.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "20789"
 tags: Dyn
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dyn/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Dyn Retrieve email sub-accounts
   x-api-slug: dyn
   description: Retrieving a list of up to 25 Email Sub-Accounts
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////accounts
   tags: Retrieve,Email, Accounts
@@ -30,7 +28,7 @@ apis:
   x-api-slug: dyn
   description: Creating an Email Sub-Account using the API requires specific syntax
     for the REST API.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////accounts
   tags: Create.Email, Accounts, (API)
@@ -42,7 +40,7 @@ apis:
 - name: Dyn Updating an Email Sub-Account
   x-api-slug: dyn
   description: Updating an Email Sub-Account
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////accounts
   tags: Updating.Email, Accounts
@@ -54,7 +52,7 @@ apis:
 - name: Dyn Deleting an Email Sub-Account
   x-api-slug: dyn
   description: Deleting an Email Sub-Account
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////accounts/delete
   tags: Deleting.Email, Accounts
@@ -67,7 +65,7 @@ apis:
   x-api-slug: dyn
   description: Returns total number of opens for the specified account for the specified
     date range. Including a date range is highly recommended.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////opens/count
   tags: .Email, Open, Count
@@ -79,7 +77,7 @@ apis:
 - name: Dyn Activate Recipient(s)
   x-api-slug: dyn
   description: Activating a specified Recipientu2019s status
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////recipients/activate
   tags: Activate, Recipients
@@ -89,7 +87,7 @@ apis:
 - name: Dyn Retrieve Recipient(s) Status
   x-api-slug: dyn
   description: Retrieve Recipient(s) Status
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////recipients/status
   tags: Retrieve, Recipients, Status
@@ -99,7 +97,7 @@ apis:
 - name: Dyn Retrieve Email Bounces
   x-api-slug: dyn
   description: Retrieving the Email SPAM Complaints
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/bounces
   tags: Retrieve,Email, Bounces
@@ -112,7 +110,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a total count of Email bounces using the API requires specific
     syntax for the REST API.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/bounces/count
   tags: Retrieve, Count, of,Email, Bounces
@@ -123,7 +121,7 @@ apis:
   x-api-slug: dyn
   description: Returns a list of links clicked for the specified account during the
     specified date range. Including a date range is highly recommended.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/clicks
   tags: Reports, Clicks
@@ -133,7 +131,7 @@ apis:
 - name: Dyn Retrieve Count of Email Links Clicked
   x-api-slug: dyn
   description: Retrieving a total of Email links clicked
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/clicks/count
   tags: Retrieve, Count, of,Email, Links, Clicked
@@ -143,7 +141,7 @@ apis:
 - name: Dyn Retrieve Count of Email Links Clicked
   x-api-slug: dyn
   description: Retrieving a total of Email links clicked
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/clicks/count/unique
   tags: Retrieve, Count, of,Email, Links, Clicked
@@ -154,7 +152,7 @@ apis:
   x-api-slug: dyn
   description: Returns a list of unique links clicked for the specified account during
     the specified date range. Including a date range is highly recommended.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/clicks/unique
   tags: Unique, Click, Report
@@ -166,7 +164,7 @@ apis:
 - name: Dyn Retrieve Email SPAM Complaints
   x-api-slug: dyn
   description: Retrieve Email SPAM Complaints
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/complaints
   tags: Retrieve,Email, SPAM, Complaints
@@ -178,7 +176,7 @@ apis:
 - name: Dyn Retrieve Count of Email SPAM Complaints
   x-api-slug: dyn
   description: Retrieving a total count of Email complaints
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/complaints/count
   tags: Retrieve, Count, of,Email, SPAM, Complaints
@@ -190,7 +188,7 @@ apis:
 - name: Dyn Retrieve Emails Delivered
   x-api-slug: dyn
   description: Retrieve Emails Delivered
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/delivered
   tags: Retrieve,Emails, Delivered
@@ -200,7 +198,7 @@ apis:
 - name: Dyn Retrieve Count of Emails Delivered
   x-api-slug: dyn
   description: Retrieve Count of Emails Delivered
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/delivered/count
   tags: Retrieve, Count, of,Emails, Delivered
@@ -210,7 +208,7 @@ apis:
 - name: Dyn Retrieve Email Issues
   x-api-slug: dyn
   description: Retrieve Email Issues
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/issues
   tags: Retrieve,Email, Issues
@@ -220,7 +218,7 @@ apis:
 - name: Dyn Retrieve Count of Email Issues
   x-api-slug: dyn
   description: Retrieving a total count of Email issues
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/issues/count
   tags: Retrieve, Count, of,Email, Issues
@@ -231,7 +229,7 @@ apis:
   x-api-slug: dyn
   description: Returns total number of unique opens for the specified account for
     the specified date range. Including a date range is highly recommended.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/opens/count/unique
   tags: Retrieve, Count, of,Email, Opens
@@ -243,7 +241,7 @@ apis:
 - name: Dyn Retrieve Emails Sent
   x-api-slug: dyn
   description: Retrieve Emails Sent
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/sent
   tags: Retrieve,Emails, Sent
@@ -253,7 +251,7 @@ apis:
 - name: Dyn Retrieve Count of Emails Sent
   x-api-slug: dyn
   description: Retrieve Count of Emails Sent
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////reports/sent/count
   tags: Retrieve, Count, of,Emails, Sent
@@ -263,7 +261,7 @@ apis:
 - name: Dyn Send Email
   x-api-slug: dyn
   description: Sending Email
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////send
   tags: Send,Email
@@ -275,7 +273,7 @@ apis:
 - name: Dyn Retrieve Suppression Email Addresses
   x-api-slug: dyn
   description: Retrieving a list of Email addresses on the suppression list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////suppressions
   tags: Retrieve, Suppression,Email, resses
@@ -287,7 +285,7 @@ apis:
 - name: Dyn Add Email Address to Suppression List
   x-api-slug: dyn
   description: Adding one or more recipients to the suppression list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////suppressions
   tags: .Email, ress, to, Suppression, List
@@ -299,7 +297,7 @@ apis:
 - name: Dyn Retrieve Suppression Count
   x-api-slug: dyn
   description: Retrieving the count of Email addresses on the suppression list
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////suppressions/count
   tags: Retrieve, Suppression, Count
@@ -311,7 +309,7 @@ apis:
 - name: Dyn Retrieving a list of custom X-header field names
   x-api-slug: dyn
   description: Retrieving a list of custom X-header field names
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////xheaders
   tags: Retrievinglist, of, custom, X-header, field, names
@@ -321,7 +319,7 @@ apis:
 - name: Dyn Update Email X-Headers
   x-api-slug: dyn
   description: Updating the custom x-headers of an Email account
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:////xheaders
   tags: .Email, X-Headers
@@ -332,12 +330,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dyn/master/_listings/dyn/xheaders-post-openapi.md
 - name: Dyn
   x-api-slug: dyn
-  description: Dyn helps companies monitor, control, and optimize online infrastructure
-    to improve end-user experience. Their Internet performance product suite includes
-    Dyn Internet Intelligence, IP Transit Intelligence, Traffic Director, and DNS
-    APIs. Dyn provides enterprise level sales and pricing for their DNS, and email
-    services.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dyn-logo.png
+  description: Dyn is home to the worlds most trusted DNS product suite and the worlds
+    most reputable Email Deliverability Service.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
   humanURL: http://dyn.com/
   baseURL: https:///
   tags: Dyn
@@ -357,8 +352,14 @@ x-common:
   url: http://research.dyn.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/dyn
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/dyn
 - type: x-developer
   url: https://help.dyn.com/developers/
+- type: x-email
+  url: billing@dyndns.com
+- type: x-email
+  url: privacy@dyn.com
 - type: x-forum
   url: http://www.dyndnscommunity.com/
 - type: x-getting-started

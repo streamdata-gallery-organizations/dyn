@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Dyn
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/dyn/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a list of up to 25 Email Sub-Accounts
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////accounts
   tags: Retrieve,Email, Accounts
   properties:
@@ -29,7 +29,7 @@ apis:
   description: Creating an Email Sub-Account using the API requires specific syntax
     for the REST API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////accounts
   tags: Create.Email, Accounts, (API)
   properties:
@@ -41,7 +41,7 @@ apis:
   x-api-slug: dyn
   description: Updating an Email Sub-Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////accounts
   tags: Updating.Email, Accounts
   properties:
@@ -53,7 +53,7 @@ apis:
   x-api-slug: dyn
   description: Deleting an Email Sub-Account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////accounts/delete
   tags: Deleting.Email, Accounts
   properties:
@@ -66,7 +66,7 @@ apis:
   description: Returns total number of opens for the specified account for the specified
     date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////opens/count
   tags: .Email, Open, Count
   properties:
@@ -78,7 +78,7 @@ apis:
   x-api-slug: dyn
   description: Activating a specified Recipientu2019s status
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////recipients/activate
   tags: Activate, Recipients
   properties:
@@ -88,7 +88,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Recipient(s) Status
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////recipients/status
   tags: Retrieve, Recipients, Status
   properties:
@@ -98,7 +98,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving the Email SPAM Complaints
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/bounces
   tags: Retrieve,Email, Bounces
   properties:
@@ -111,7 +111,7 @@ apis:
   description: Retrieving a total count of Email bounces using the API requires specific
     syntax for the REST API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/bounces/count
   tags: Retrieve, Count, of,Email, Bounces
   properties:
@@ -122,7 +122,7 @@ apis:
   description: Returns a list of links clicked for the specified account during the
     specified date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/clicks
   tags: Reports, Clicks
   properties:
@@ -132,7 +132,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a total of Email links clicked
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/clicks/count
   tags: Retrieve, Count, of,Email, Links, Clicked
   properties:
@@ -142,7 +142,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a total of Email links clicked
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/clicks/count/unique
   tags: Retrieve, Count, of,Email, Links, Clicked
   properties:
@@ -153,7 +153,7 @@ apis:
   description: Returns a list of unique links clicked for the specified account during
     the specified date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/clicks/unique
   tags: Unique, Click, Report
   properties:
@@ -165,7 +165,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Email SPAM Complaints
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/complaints
   tags: Retrieve,Email, SPAM, Complaints
   properties:
@@ -177,7 +177,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a total count of Email complaints
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/complaints/count
   tags: Retrieve, Count, of,Email, SPAM, Complaints
   properties:
@@ -189,7 +189,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Emails Delivered
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/delivered
   tags: Retrieve,Emails, Delivered
   properties:
@@ -199,7 +199,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Count of Emails Delivered
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/delivered/count
   tags: Retrieve, Count, of,Emails, Delivered
   properties:
@@ -209,7 +209,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Email Issues
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/issues
   tags: Retrieve,Email, Issues
   properties:
@@ -219,7 +219,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a total count of Email issues
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/issues/count
   tags: Retrieve, Count, of,Email, Issues
   properties:
@@ -230,7 +230,7 @@ apis:
   description: Returns total number of unique opens for the specified account for
     the specified date range. Including a date range is highly recommended.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/opens/count/unique
   tags: Retrieve, Count, of,Email, Opens
   properties:
@@ -242,7 +242,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Emails Sent
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/sent
   tags: Retrieve,Emails, Sent
   properties:
@@ -252,7 +252,7 @@ apis:
   x-api-slug: dyn
   description: Retrieve Count of Emails Sent
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////reports/sent/count
   tags: Retrieve, Count, of,Emails, Sent
   properties:
@@ -262,7 +262,7 @@ apis:
   x-api-slug: dyn
   description: Sending Email
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////send
   tags: Send,Email
   properties:
@@ -274,7 +274,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a list of Email addresses on the suppression list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////suppressions
   tags: Retrieve, Suppression,Email, resses
   properties:
@@ -286,7 +286,7 @@ apis:
   x-api-slug: dyn
   description: Adding one or more recipients to the suppression list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////suppressions
   tags: .Email, ress, to, Suppression, List
   properties:
@@ -298,7 +298,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving the count of Email addresses on the suppression list
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////suppressions/count
   tags: Retrieve, Suppression, Count
   properties:
@@ -310,7 +310,7 @@ apis:
   x-api-slug: dyn
   description: Retrieving a list of custom X-header field names
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////xheaders
   tags: Retrievinglist, of, custom, X-header, field, names
   properties:
@@ -320,7 +320,7 @@ apis:
   x-api-slug: dyn
   description: Updating the custom x-headers of an Email account
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:////xheaders
   tags: .Email, X-Headers
   properties:
@@ -333,7 +333,7 @@ apis:
   description: Dyn is home to the worlds most trusted DNS product suite and the worlds
     most reputable Email Deliverability Service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
-  humanURL: http://dyn.com/
+  humanURL: http://dynect.net
   baseURL: https:///
   tags: Dyn
   properties:
@@ -382,6 +382,8 @@ x-common:
   url: http://dyn.com/legal/dyn-services-agreement/
 - type: x-twitter
   url: https://twitter.com/Dyn
+- type: x-website
+  url: http://dynect.net
 - type: x-website
   url: http://dyn.com/
 include: []
